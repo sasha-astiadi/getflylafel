@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900");
+
+* {
+	box-sizing: border-box;
+	transition: all ease-in-out 250ms;
+}
+
+body {
+	margin: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+
+img {
+	max-width: 95%;
+	height: auto;
+}
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+
+
+.home-hero {
+	margin: 0;
+	padding: 1em 1em;
+	background-color: #16A9D7;
+}
+
+
+.home-hero2 {
+	margin: 0;
+	padding: 1em 1em;
+	background-color: #16A9D7;
+}
+
+
+/* typography
+============================== */
+a#home {
+	font-size: 2em;
+}
+.title {
+	display: block;
+	font-size: 2em;
+	text-align: center;
+	color: #ffff;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size:1.5em;
+	color: #094557;
+	text-align: left;
+	line-height: normal;
+	height: auto;
+}
+
+h4 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size:1.5em;
+	color: #ffff;
+	text-align: center;
+	line-height: normal;
+	height: auto;
+}
+
+p {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size:1em;
+	color: #094557;
+	text-align: left;
+	line-height: normal;
+	height: auto;
+
+}
+
+span {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size:1em;
+color: #FFFF;
+text-align: center;
+line-height: normal;
+height: auto;
+}
+
+
+
+.Col-lg-2 {
+		margin: 0;
+		padding: .5em;
+		background: rgb(255,255,255);
+		background: linear-gradient(67deg, rgba(255,255,255,1) 0%, rgba(22,169,215,1) 100%);
+		float: center;
+	}
+
+/* Full-width input fields */
+input[type=text] {
+    width: 100%;
+    padding: .5em;
+    margin: 5px 0 12px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+		  width: 50%;
+}
+
+/* Set a style for all buttons */
+button {
+    color: white;
+    padding: .5em;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+		font-size: 1.5em;
+		font-weight: bold;
+		border-radius: 15px;
+		margin: .2em;
+}
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+
+.signupbtn {
+    padding: .2em;
+    background-color: #38B444;
+		width: 50%;
+}
+
+.actionbtn {
+	padding: .5em;
+	background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: center;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0, .3);
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*circle*/
+p.circle1, p.circle2, p.circle3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  border: 3px Solid #F64D43;
+	color: #F64D43;
+	font-weight: bold;
+	width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+	margin-bottom: -.1em;
+}
+
+h3 {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size:1em;
+	font-weight: 900;
+	color: #F64D43;
+	text-align: left;
+
+	height: auto;
